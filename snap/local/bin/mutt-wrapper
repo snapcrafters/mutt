@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Run the configure hook which sets defaults for any config options
-"${SNAP}/snap/hooks/configure"
+"${SNAP}/meta/hooks/configure"
 
 export HOME="$SNAP_USER_COMMON"
 
