@@ -1,4 +1,5 @@
 name: mutt
+title: Mutt
 version: 2-2-13-rel
 summary: Mutt is a sophisticated text-based Mail User Agent
 description: |
@@ -31,7 +32,9 @@ description: |
 
 contact: https://github.com/snapcrafters/mutt/issues
 issues: https://github.com/snapcrafters/mutt/issues
-source-code: https://github.com/snapcrafters/mutt
+source-code:
+  - https://gitlab.com/muttmua/mutt
+  - https://github.com/snapcrafters/mutt
 website: https://mutt.org
 icon: snap/mutt.png
 
@@ -115,11 +118,11 @@ parts:
     stage-packages:
       - emacs-nox
       - libassuan0
-      - libgpgme11
+      - libgpgme11t64
       - libgpm2
       - libidn12
       - libsasl2-2
-      - libtokyocabinet9
+      - libtokyocabinet9t64
       - locales-all
       - nano
       - vim
